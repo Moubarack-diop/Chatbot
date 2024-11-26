@@ -1,1 +1,9 @@
-Langchain==
+langchain == 0.3
+langchain_community
+chromaDB
+transformers
+sentence-transformers
+bitsandbytes
+torch
+accelerate
+python-telegram-bot
