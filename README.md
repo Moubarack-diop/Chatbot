@@ -6,3 +6,4 @@ Cependant,bien que les LLM soient puissants et capables de générer du contenu 
 Nous avons alors récupéré les données FAQs contenues dans le site de [Orange Assistance](https://assistance.orange.sn/) grace au web scraping q'on a directement ingéré dans le LLM grace au RAG.
 ## C'est quoi le RAG
 ![ConversationalRag](https://github.com/user-attachments/assets/5c1e1902-df97-4690-bc8c-7d1ecbfd5bba)
+Les LLM sont formés sur un corpus de données volumineux mais fixe, ce qui limite leur capacité à raisonner sur des informations privées ou récentes. Le fine tuning est un moyen d'atténuer ce problème, mais il n'est souvent pas bien adapté au rappel factuel et peut être coûteux. La génération augmentée de récupération (RAG) est devenue un mécanisme populaire et puissant pour élargir la base de connaissances d'un LLM, en utilisant des documents récupérés à partir d'une source de données externe pour fonder la génération de LLM via l'injection de contexte.
