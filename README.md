@@ -28,4 +28,5 @@ L'architecture ci-dessus est une excellente introduction aux bases de l'injectio
 ## Technologies utilisées
 
 ### Langchain
-![inbox_769452_b18d0513200d426e556b2b7b7c825981_RAG](https://github.com/user-attachments/assets/02aee50a-8c7a-48dd-9992-7d4d96f0899c)
+![icon_langchain](https://github.com/user-attachments/assets/68ecdc16-c93b-4210-89a3-eea1ed034618)
+
