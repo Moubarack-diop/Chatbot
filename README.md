@@ -12,8 +12,15 @@ Les LLM sont formés sur un corpus de données volumineux mais fixe, ce qui limi
 
 L'architecture ci-dessus est une excellente introduction aux bases de l'injection de contexte. Nous allons résumer le processus d'injection de contexte comme suit :
 1. D'abord nous collectons d'abord les données extraites du site de Orange Assistance grace au web scraping. Ces dernières sont ensuite transformées en fichier CSV.
+   
 2. Ensuite, les données sont chargées (text loader) puis segmentées (text splitting). Les segments (tokens) sont essentiellement une courte chaîne de caractères, généralement de 4 caractères. Par exemple, le mot « génératif » peut être divisé en segments comme « ge », « n », « erat » et « ive ». Le LLM traite les données sous forme de segments.
+ 
 3. Les tokens seront introduits dans un modèle d'embedding qui convertit les tokens en vecteurs. L'embeddings sont la façon dont les mots et les phrases sont représentés dans un espace vectoriel.
+  
 4. Les vecteurs produits à partir du modèle d'embedding sont stockés dans des bases de données vectorielles. Dans notre cas, nous utiliserons ChromaDB.
+   
 5. Passons maintenant à la partie intéressante. Lorsqu'un utilisateur pose une question, nous convertissons sa requête en vecteur et recherchons les vecteurs les plus proches dans la base de données. Essentiellement, ce processus localise les fragments de texte les plus pertinents pour la requête de l'utilisateur et les reconvertit en texte.
-La question de l'utilisateur et les fragments de texte pertinents (contexte) seront inclus dans un prompt qui sera fourni au LLM. Sans aucune modification du LLM d'origine, le modèle peut fournir des réponses impressionnantes à la requête en utilisant le contexte injecté.
+   
+6. La question de l'utilisateur et les fragments de texte pertinents (contexte) seront inclus dans un prompt qui sera fourni au LLM. Sans aucune modification du LLM d'origine, le modèle peut fournir des réponses impressionnantes à la requête en utilisant le contexte injecté.
+
+7. La réponse générée et la question précédente de l'utilisateur seront introduites dans le prompt pour servir d'historique des conversations. Le LLM pourra s'en inspiré lorsque l'utilisateur pose une autre question en rapport avec les question et réponse précédentes.
