@@ -15,7 +15,7 @@ L'architecture ci-dessus est une excellente introduction aux bases de l'injectio
    
 2. Ensuite, les données sont chargées (text loader) puis segmentées (text splitting). Les segments (tokens) sont essentiellement une courte chaîne de caractères, généralement de 4 caractères. Par exemple, le mot « génératif » peut être divisé en segments comme « ge », « n », « erat » et « ive ». Le LLM traite les données sous forme de segments.
  
-3. Les tokens seront introduits dans un modèle d'embedding qui convertit les tokens en vecteurs. L'embeddings sont la façon dont les mots et les phrases sont représentés dans un espace vectoriel.
+3. Les tokens seront introduits dans un modèle d'embedding qui convertit les tokens en vecteurs. L'embeddings sont la façon dont les mots et les phrases sont représentés dans un espace vectoriel.Il existe plusieurs modèles d'embedding dans le marché dans notre cas nous avons choisi celui de Hugging Face.
   
 4. Les vecteurs produits à partir du modèle d'embedding sont stockés dans des bases de données vectorielles. Dans notre cas, nous utiliserons ChromaDB.
    
@@ -24,3 +24,8 @@ L'architecture ci-dessus est une excellente introduction aux bases de l'injectio
 6. La question de l'utilisateur et les fragments de texte pertinents (contexte) seront inclus dans un prompt qui sera fourni au LLM. Sans aucune modification du LLM d'origine, le modèle peut fournir des réponses impressionnantes à la requête en utilisant le contexte injecté.
 
 7. La réponse générée et la question précédente de l'utilisateur seront introduites dans le prompt pour servir d'historique des conversations. Le LLM pourra s'en inspiré lorsque l'utilisateur pose une autre question en rapport avec les question et réponse précédentes.
+
+## Technologies utilisées
+
+### Langchain
+![inbox_769452_b18d0513200d426e556b2b7b7c825981_RAG](https://github.com/user-attachments/assets/02aee50a-8c7a-48dd-9992-7d4d96f0899c)
