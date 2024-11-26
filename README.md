@@ -30,9 +30,9 @@ L'architecture ci-dessus est une excellente introduction aux bases de l'injectio
 ### 🦜️🔗 Langchain
 LangChain est un framework open-source conçu pour faciliter le développement d'applications basées sur des modèles de langage (LLMs). Il fournit des ouils pour les pipelines de traitement de langage, gère les conversations longues en gérant l'historique contextuel. Il facilite l'intégration des bases de connaissances de meme que la conception des prompts.
 
-### 🤗: Hugging Face
+### 🤗 Hugging Face
 Hugging Face est une plateforme qui offre la posibilité d'accéder à des modèles de langage préentrainés Open source. Pour le cadre de notre projet, nous y avons téléchargé le modèle Llama-2-13b-chat-hf. C'est un modèle gratuit fourni par Meta AI. Néanmoins il existe d'autres LLM performants sur le marché tels que GPT, Gemini,...; leur utilisation étant payante, nous avons préféré travailler avec des LLM gratuits.
 
-### C![chroma](https://github.com/user-attachments/assets/f6a76b1b-dc91-47e4-891f-70ed8f2d84c4)
-hromaDB
+### ChromaDB
 
+![chromaDb](https://github.com/user-attachments/assets/a7284be2-a6a3-4c04-bd12-fa290781dace)
