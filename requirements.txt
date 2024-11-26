@@ -1,5 +1,6 @@
 langchain == 0.3
 langchain_community
+huggingface_hub
 chromaDB
 transformers
 sentence-transformers
