@@ -1,6 +1,6 @@
 # Chatbot
 
-![architeccture du RAG](Workflow_rag(1).png)
+![architeccture du RAG](Chatbot/Workflow_rag(1).png)
 
 ## Aperçu du projet
 Notre projet consiste à concevoir un chatbot destiné à assister le service client du Groupe Orange Sénégal. Ce chatbot est basé sur l'Intelligence Artificielle et utilise dans sa génération de réponse, un grand modèle de langage naturel (LLM). Dans notre cas nous avons utilisé le Llama2 13B Chat, un modèle de langage développé par Meta AI, disponible via l'interface de Hugging Face Transformers.
