@@ -35,3 +35,8 @@ Hugging Face est une plateforme qui offre la posibilité d'accéder à des modè
 
 ### ChromaDB
 ChromaDB est une base de données vectorielle spécialement conçue pour stocker et rechercher des données vectorielles. Elle va nous permettre de gérer nos données vectorisées Ces vecteurs seront utilisés pour effectuer des recherches basées sur la similarité.
+
+## Installation
+Pour le développement de notre Chatbot nous avons utilisé Google Colab. C'est une plateforme qui offre gratuitement de la mémoire GPU indispensable au chargement de notre LLM (llama2 13B Chat). Cependant cette mémoire est assez limitée si on veut charger des modèles avec de plus grands paramètres. Fort heuresement, Hugging Face a développé des modèles de quantification avec la bibliothèque Bitsandbytes.La quantification va ainsi améliorer les performances en réduisant les besoins en bande passante mémoire GPU et en augmentant l'utilisation du cache.
+>bzfzbc
+>q,dkcn
