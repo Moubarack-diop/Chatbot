@@ -98,10 +98,13 @@ Pour le développement de notre Chatbot nous avons utilisé Google Colab. C'est 
    ![llamaaccess](https://github.com/user-attachments/assets/c8e1b77d-0b63-4d7b-8a61-78a2fe0bc01d)
    
  2. Pour l'intégration du Chatbot sur Télégram veuillez suivre ces étapes suivantes:
+    
      `Etape 1. Ouvrir Telegram `
-         Lancez l’application Telegram et recherchez le bot BotFather.  `BotFather est un bot officiel de Telegram utilisé pour créer et gérer d’autres bots.
+    
+     Lancez l’application Telegram et recherchez le bot BotFather.`BotFather` est un bot officiel de Telegram utilisé pour créer et gérer d’autres bots.
 
-     `Etape 2. Créer un Nouveau Bot `
-         – Envoyez la commande `/newbot` à BotFather.
-         – Donnez un nom et un nom d’utilisateur (username) à votre bot.
-         – BotFather vous fournira un Token d’API. Conservez ce token en lieu sûr, car il sera inséré dans le code.
+     `Etape 2`. Créer un Nouveau Bot
+    
+           + Envoyez la commande `/newbot` à BotFather.
+           + Donnez un nom et un nom d’utilisateur (username) à votre bot.
+           + BotFather vous fournira un Token d’API. Conservez ce token en lieu sûr, car il sera inséré dans le code.
