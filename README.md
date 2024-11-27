@@ -52,11 +52,13 @@ Pour le développement de notre Chatbot nous avons utilisé Google Colab. C'est 
     ![tokenacess](https://github.com/user-attachments/assets/5ee429fd-386e-4e5d-bdf0-8187e707fa43)
 
    `Étape 2. Demande de Llama 2 `
+   
    Pour télécharger et utiliser le modèle Llama 2, il vous suffit de remplir le formulaire de Meta pour demander l'accès. Veuillez noter que l'utilisation de Llama 2 est 
    soumise à l'acceptation du contrat de licence Meta. Après avoir rempli le formulaire, vous recevrez un email contenant une URL qui pourra être utilisée pour télécharger 
    le modèle.
 
    `Étape 3. Accédez au modèle Llama-2 sur Huggingface , soumettez le formulaire d'accès`
+   
    _Veuillez noter que l'e-mail que vous saisissez à l'étape 2 doit correspondre à celui que vous avez utilisé pour créer votre compte Hugging Face à l'étape 1. S'ils ne 
    correspondent pas, l'étape 3 ne réussira pas._
    Après quelques minutes, une fois votre soumission approuvée, vous recevrez le mail suivant. À ce stade, toutes les étapes préalables ont été complétées.
