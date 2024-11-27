@@ -48,6 +48,7 @@ Pour le développement de notre Chatbot nous avons utilisé Google Colab. C'est 
    `Etape 1: Création de compte Hugging Face et récupération du Token d'accés`
    Pour télécharger des modèles depuis Hugging Face, vous devez d'abord avoir un compte Huggingface. Inscrivez-vous à cette [URL](https://huggingface.co/welcome) , puis 
    obtenez votre token à cet endroit.
+   
     ![tokenacess](https://github.com/user-attachments/assets/5ee429fd-386e-4e5d-bdf0-8187e707fa43)
 
    `Étape 2. Demande de Llama 2 `
@@ -62,7 +63,7 @@ Pour le développement de notre Chatbot nous avons utilisé Google Colab. C'est 
    
    ![llamaaccess](https://github.com/user-attachments/assets/c8e1b77d-0b63-4d7b-8a61-78a2fe0bc01d)
    
- 2. Pour l'intégration du Chatbot sur Télégram veuillez suivre ces étapes suivantes:
+ 3. Pour l'intégration du Chatbot sur Télégram veuillez suivre ces étapes suivantes:
     
      `Etape 1. Ouvrir Telegram `
     
