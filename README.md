@@ -15,7 +15,7 @@ L'architecture ci-dessus est une excellente introduction aux bases de l'injectio
    
 2. Ensuite, les données sont chargées (text loader) puis segmentées (text splitting). Les segments (tokens) sont essentiellement une courte chaîne de caractères, généralement de 4 caractères. Par exemple, le mot « génératif » peut être divisé en segments comme « ge », « n », « erat » et « ive ». Le LLM traite les données sous forme de segments.
  
-3. Les tokens seront introduits dans un modèle d'embedding qui convertit les tokens en vecteurs. L'embeddings sont la façon dont les mots et les phrases sont représentés dans un espace vectoriel.Il existe plusieurs modèles d'embedding dans le marché dans notre cas nous avons choisi celui de Hugging Face.
+3. Les tokens seront introduits dans un modèle d'embedding qui convertit les tokens en vecteurs. L'embeddings sont la façon dont les mots et les phrases sont représentés dans un espace vectoriel. Il existe plusieurs modèles d'embedding dans le marché dans notre cas nous avons choisi celui de Hugging Face.
   
 4. Les vecteurs produits à partir du modèle d'embedding sont stockés dans des bases de données vectorielles. Dans notre cas, nous utiliserons ChromaDB.
    
