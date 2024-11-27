@@ -34,5 +34,4 @@ LangChain est un framework open-source conçu pour faciliter le développement d
 Hugging Face est une plateforme qui offre la posibilité d'accéder à des modèles de langage préentrainés Open source. Pour le cadre de notre projet, nous y avons téléchargé le modèle Llama-2-13b-chat-hf. C'est un modèle gratuit fourni par Meta AI. Néanmoins il existe d'autres LLM performants sur le marché tels que GPT, Gemini,...; leur utilisation étant payante, nous avons préféré travailler avec des LLM gratuits.
 
 ### ChromaDB
-
-![chromaDb](https://github.com/user-attachments/assets/a7284be2-a6a3-4c04-bd12-fa290781dace)
+ChromaDB est une base de données vectorielle spécialement conçue pour stocker et rechercher des données vectorielles. Elle va nous permettre de gérer nos données vectorisées Ces vecteurs seront utilisés pour effectuer des recherches basées sur la similarité.
