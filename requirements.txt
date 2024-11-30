@@ -1,7 +1,7 @@
 langchain == 0.3
 langchain_community
 huggingface_hub
-chromaDB ==0.3
+chromaDB
 transformers
 sentence-transformers
 bitsandbytes
