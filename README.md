@@ -45,7 +45,9 @@ Afin de vivre une expérience utilisateur, nous avons intégré notre chatbot da
 Pour le développement de notre Chatbot nous avons utilisé Google Colab. C'est une plateforme qui offre gratuitement de la mémoire GPU indispensable au chargement de notre LLM (llama2 13B Chat). Cependant cette mémoire est assez limitée si on veut charger des modèles avec de plus grands paramètres. Fort heuresement, Hugging Face a développé des modèles de quantification avec la bibliothèque Bitsandbytes.La quantification va ainsi améliorer les performances en réduisant les besoins en bande passante mémoire GPU et en augmentant l'utilisation du cache.
 
 1. Pour accéder au modèle llama2 13B Chat via Hugging Face veuillez suivre le étapes suivantes:
+   
    `Etape 1: Création de compte Hugging Face et récupération du Token d'accés`
+   
    Pour télécharger des modèles depuis Hugging Face, vous devez d'abord avoir un compte Huggingface. Inscrivez-vous à cette [URL](https://huggingface.co/welcome) , puis 
    obtenez votre token à cet endroit.
    
